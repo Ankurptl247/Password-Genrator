@@ -41,7 +41,7 @@ function App() {
 
   return (
     <>
-      <div className='w-full max-w-xl mx-auto shadow-md rounded-lg my-10 text-zinc-900 px-7 py-7 bg-slate-700'>
+      <div className='w-full max-w-xl mx-auto shadow-md rounded-lg my-10 text-zinc-900 px-7 py-7 bg-green-700'>
         <h1 className='text-dark text-xl text-center'>Password genrator</h1>
         <div className='flex shadow rounded-lg overflow-hidden mb-4 my-3'>
           <input type="text"
@@ -51,7 +51,7 @@ function App() {
             readOnly
             ref={passwordRef}
           />
-          <button onClick={handleClick} className='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0'>Copy</button>
+          <button onClick={handleClick} className='outline-none bg-zinc-800 text-white px-3 py-0.5 shrink-0'>Copy</button>
         </div>
         <div className='flex text-md gap-x-2'>
           <div className='flex items-center gap-x-1'>
